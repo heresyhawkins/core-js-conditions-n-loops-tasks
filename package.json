@@ -4,7 +4,8 @@
   "description": "Core JS conditions and loops task",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && mocha",
+    "test-statik": "npm run lint && mocha",
+    "test": "npm run lint && mocha --watch",
     "lint": "node node_modules/eslint/bin/eslint.js ./src",
     "lint:fix": "node node_modules/eslint/bin/eslint.js ./src --fix"
   },
